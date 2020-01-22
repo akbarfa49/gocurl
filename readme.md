@@ -5,6 +5,7 @@ go get github.com/sysfa/gocurl
 ### Information
 Use URL with scheme
 This library using Net Package
+if you using POST method you need to add Content-Length Manually
 ### TO DO
 add Concurrency
 #### Usage
