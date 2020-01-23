@@ -38,7 +38,7 @@ func New() *Client {
 		Version: "HTTP/1.0",
 	}
 }
-func (c *Client) setHeader(key, value string) {
+func (c *Client) SetHeader(key, value string) {
 	c.Header = append(c.Header, fmt.Sprintf("%v:%v", key, value))
 }
 
