@@ -11,7 +11,7 @@ add Concurrency
 #### Usage
 ```
 func main() {
-	c := New()
+	c := gocurl.New()
 	c.setHeader("Content-Type", "application/json")
 	z := map[string]string{"user": "duar"}
 	c.Curl("POST", "http://localhost:80/user", z)
